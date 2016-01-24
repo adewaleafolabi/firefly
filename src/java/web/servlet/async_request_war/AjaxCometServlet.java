@@ -103,6 +103,7 @@ public class AjaxCometServlet extends HttpServlet {
                     } catch(InterruptedException iex) {
                         done = true;
                         System.out.println(iex);
+                        System.out.println(iex.toString());
                     }
                 }
             }
